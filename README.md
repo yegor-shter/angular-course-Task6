@@ -1,6 +1,11 @@
-# Task7
+# Task6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
+
+## Description
+
+- Created structure directve "unless"
+- Usage of ngTemplateOutlet and context, tooltip
 
 ## Development server
 
