@@ -1,0 +1,8 @@
+<div>
+  <div class="dataBase">
+    <div *ngFor="let data of dataBase">
+      <ng-container *ngTemplateOutlet="parentTemplate; context: { $implicit: data}">
+      </ng-container>
+    </div>
+  </div>
+</div>

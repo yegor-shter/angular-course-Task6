@@ -1,0 +1,12 @@
+<fieldset>
+  <div *appUnless="isLess">
+    U will see this quote unless a random number be more then 0.5
+  </div>
+  <div>
+    on this click u've got: {{number}}
+  </div>
+</fieldset>
+<button placement="auto" ngbTooltip="this button generates random number" (click)="rndNumber()">get a number</button>
+
+
+<app-parent-template-outlet></app-parent-template-outlet>
